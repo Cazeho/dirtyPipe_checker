@@ -1,10 +1,10 @@
 # dirtyPipe_checker
 
 
-# Remote
+# Remote Testing
 
 
-## without argument
+## Without argument
 ```
 curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh | bash
 ```
