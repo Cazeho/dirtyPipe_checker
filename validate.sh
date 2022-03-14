@@ -18,19 +18,5 @@ menu () {
       esac
 }
 
-
-
-
-
-
-
 menu
-}
 
-
-
-
-
-
-   
-menu
