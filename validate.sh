@@ -5,3 +5,6 @@ echo "deb http://deb.debian.org/debian/ sid main" | sudo tee -a /etc/apt/sources
 menu () {
    echo "Do you want update your kernel"
 }
+
+
+menu
