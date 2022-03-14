@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Check current kernel : bash check.sh
+# Check specific kernel : bash check.sh 5.16.12
+
+
+
 #uname -v | awk '{print $5}' | cut -d '-' -f1
 ver1=$(echo $(uname -v | awk '{print $5}' | cut -d '-' -f1) | cut -d '.' -f1)
 ver2=$(echo $(uname -v | awk '{print $5}' | cut -d '-' -f1) | cut -d '.' -f2)
