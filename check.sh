@@ -1,14 +1,9 @@
 #!/bin/bash
 
-# Check current kernel : bash check.sh
-# Check specific kernel : bash check.sh 5.16.12
-
-
-
 kernel=$1
-ver1=$(echo $(uname -v | awk '{print $5}' | cut -d '-' -f1) | cut -d '.' -f1)
-ver2=$(echo $(uname -v | awk '{print $5}' | cut -d '-' -f1) | cut -d '.' -f2)
-ver3=$(echo $(uname -v | awk '{print $5}' | cut -d '-' -f1) | cut -d '.' -f3)
+ver1=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f1)
+ver2=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f2)
+ver3=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f3)
 echo $ver1 $ver2 $ver3
 
 
