@@ -1,4 +1,4 @@
-# dirtyPipe_checker
+# Dirty Pipe checker for Debian 11
 
 
 # Remote Testing
