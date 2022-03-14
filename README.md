@@ -3,7 +3,7 @@
 
 # Remote Testing
 
- >5.10.92-2 (ok)
+ > sup 5.10.92-2 (ok)
 
 ## Without argument
 ```
