@@ -24,3 +24,5 @@ else
     echo Vulnerable
     exit 1
 fi
+
+
