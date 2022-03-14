@@ -3,10 +3,9 @@
 echo "deb http://deb.debian.org/debian/ sid main" | sudo tee -a /etc/apt/sources.list
 
 menu () {
-      cat << EOF
-          1. yes
-          2. no
-      EOF
+     menu () {
+      echo "1. yes"
+      echo "2. no"
       echo -n 'enter: '
       read -r sel
 
@@ -17,6 +16,15 @@ menu () {
                  echo "Invalid entry." >&1
                  exit 1
       esac
+}
+
+
+
+
+
+
+
+menu
 }
 
 
