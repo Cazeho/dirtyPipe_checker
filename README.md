@@ -3,6 +3,7 @@
 
 # Remote Testing
 
+ >5.10.92-2 (ok)
 
 ## Without argument
 ```
@@ -14,5 +15,5 @@ curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh
 
 
 ```
-curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh | bash -s 5.16.12
+curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh | bash -s 5.10.92
 ```
