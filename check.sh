@@ -7,7 +7,7 @@ ver3=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d 
 echo $ver1 $ver2 $ver3
 
 
-
+#Debian 11
 #updated version : 5.10.102, 5.15.25, 5.16.11
 
 if (( ${ver1:-0} < 5 )) ||
