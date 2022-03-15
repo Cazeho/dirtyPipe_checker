@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#not finished
 #Debian 10
 
 
