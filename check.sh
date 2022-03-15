@@ -1,9 +1,9 @@
 #!/bin/bash
 
 kernel=$1
-ver1=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f1)
-ver2=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f2)
-ver3=$(echo ${kernel:-$(uname -v | awk '{print $5}' | cut -d '-' -f1)} | cut -d '.' -f3)
+ver1=$(echo ${kernel:-$(uname -v | awk '{print $4}' | cut -d '-' -f1)} | cut -d '.' -f1)
+ver2=$(echo ${kernel:-$(uname -v | awk '{print $4}' | cut -d '-' -f1)} | cut -d '.' -f2)
+ver3=$(echo ${kernel:-$(uname -v | awk '{print $4}' | cut -d '-' -f1)} | cut -d '.' -f3)
 echo $ver1 $ver2 $ver3
 
 
