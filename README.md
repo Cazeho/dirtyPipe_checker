@@ -17,3 +17,8 @@ curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh
 ```
 curl -s https://raw.githubusercontent.com/Cazeho/dirtyPipe_checker/main/check.sh | bash -s 5.10.92
 ```
+
+
+## Source 
+
+https://www.debian.org/security/2022/dsa-5095
